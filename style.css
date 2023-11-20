@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Fontes/Roboto/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #ffffff;
+    height: 96px;
+    text-align: center;
+    box-shadow: 0;
+}
+header img{
+    width: 120px;
+    height: 96px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+body > div{
+    height: 100%;
+    width: 100%;
+    background: url(imagens/fundo.jpg) no-repeat;
+    background-size: cover;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000ba;
+    position: relative;
+    text-align: center;
+}
+#img_user{
+    margin-top: 68px;
+    margin-bottom: 50px;
+}
+form{
+    position: absolute;
+    width: 270px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+form > div.campos{
+    width: 250px;
+    display: block;
+}
+form > div > span#mail{
+    color: #333333;
+    position: absolute;
+    top: 10.2%;
+    margin-left: 8px;
+}
+form > div > span#key{
+    color: #333333;
+    position: absolute;
+    top: 50.5%;
+    margin-left: 8px;
+    transform: rotate(-50deg);
+}
+form > div.campos > label{
+    display: block;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+form > div.campos > input{
+    margin-bottom: 50px;
+    width: 217px;
+    height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    border: none;
+    font-size: 16px;
+}
+form > div > input[type=submit]{
+    font-family: 'Inter';
+    text-align: center;
+    width: 100px;
+    height: 40px; 
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background: #D9D9D9; 
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+div#enviar_cadastro{
+    display: block;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 13px;
+}
+p{
+    display: inline-block;
+    color: white;
+}
+a{
+    color: #0E76A8; 
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 2px 0px;
+}
