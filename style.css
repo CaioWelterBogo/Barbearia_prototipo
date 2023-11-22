@@ -42,8 +42,8 @@ body > div{
     background-size: cover;
 }
 main{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: #000000ba;
     position: relative;
     text-align: center;
@@ -54,12 +54,10 @@ main{
 }
 form{
     position: absolute;
-    width: 270px;
     left: 50%;
     transform: translate(-50%,0);
 }
 form > div.campos{
-    width: 250px;
     display: block;
 }
 form > div > span#mail{
