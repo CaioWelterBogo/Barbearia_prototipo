@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agendar.css">
+    <title>Agendar Horário</title>
+</head>
+<body>
+    <header>
+        <img src="../Imagens/logo.png" alt="Cortes e Cia logo">
+    </header>
+    <div>
+        <main>
+            <form action="" method="get">
+                <legend>Agendamento</legend>
+                <div class="campos">
+                    <label for="iservico">Serviço</label>
+                    <select name="servico" id="iservico">
+                        <option value="corte_m">Corte Masculino</option>
+                        <option value="barba">Barba</option>
+                        <option value="corte_barba">Corte e Barba</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label for="ifuncionario">Funcionário</label>
+                    <select name="funcionario" id="ifuncionario">
+                        <option value="alguem">Alguém</option>
+                        <option value="joao">João</option>
+                        <option value="leonel">Leonel</option>
+                        <option value="vitor">Vitor</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label for="idata">Data</label>
+                    <input type="date" name="data" id="idata">
+                </div>
+                <p>Horário</p>
+                <br>
+                <div id="horarios_disponiveis">
+
+                </div>
+                <div class="botao">
+                    <input type="submit" value="Marcar Horário">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

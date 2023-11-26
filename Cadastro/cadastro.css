@@ -58,6 +58,7 @@ form > div.campos > label{
     font-weight: 400;
     line-height: normal;
     text-align: left;
+    margin-left: 3px;
 }
 form > div.campos > input{
     margin-bottom: 35px;
@@ -86,7 +87,7 @@ form > div > input[type=submit]{
 div#enviar_login{
     display: block;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
 
     transform: translate(-50%,-50%);
