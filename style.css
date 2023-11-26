@@ -9,6 +9,14 @@
     src: url(Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -52,21 +60,18 @@ form{
 form > div.campos{
     display: block;
 }
-form > div > i#mail{
+form > div > span#mail{
     color: #333333;
     position: absolute;
     top: 10.5%;
     margin-left: 8px;
-    font-size: 22px;
-    
 }
-form > div > i#key{
+form > div > span#key{
     color: #333333;
     position: absolute;
     top: 50.8%;
     margin-left: 8px;
     transform: rotate(-50deg);
-    font-size: 25px;
 }
 form > div.campos > label{
     display: block;
