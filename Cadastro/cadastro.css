@@ -23,18 +23,15 @@ header img{
     height: 96px;
 }
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 86.5vh;
 }
 body > div{
     height: 100%;
-    width: 100%;
     background: url(../Imagens/fundo.jpg) no-repeat;
     background-size: cover;
 }
 main{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
     background-color: #000000ba;
     position: relative;
     text-align: center;
@@ -85,16 +82,14 @@ form > div > input[type=submit]{
     text-transform: uppercase;
 }
 div#enviar_login{
+    width: 100%;
     display: block;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-
-    transform: translate(-50%,-50%);
-
+    text-align: center;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 13px;
+    margin-top: -48px;
+    position: absolute;
 }
 p{
     display: inline-block;
