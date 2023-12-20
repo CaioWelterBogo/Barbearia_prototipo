@@ -23,7 +23,8 @@ header img{
     height: 96px;
 }
 body{
-    height: 100vh;
+    height: 80vh;
+    background-color: #3d2e18;
 }
 body > div{
     height: 100%;
@@ -82,14 +83,14 @@ form > div > input[type=submit]{
     text-transform: uppercase;
 }
 div#enviar_login{
-    width: 100%;
     display: block;
-    text-align: center;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 13px;
-    margin-top: -48px;
     position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 p{
     display: inline-block;

@@ -23,7 +23,8 @@ header img{
     height: 96px;
 }
 body{
-    height: 100vh;
+    height: 80vh;
+    background-color: #3d2e18;
 }
 body > div#imagem_fundo{
     height: 100%;
@@ -72,11 +73,13 @@ form > div > input[type=submit]{
     margin-top: 55px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-bottom: 0px;
 }
 div#enviar_cadastro{
     text-align: center;
-    margin-top: -185px;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    transform: translate(0,-50%);
     font-family: 'Inter';
     font-weight: 700;
     font-size: 14px;

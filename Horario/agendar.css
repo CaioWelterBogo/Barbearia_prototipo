@@ -82,7 +82,7 @@ form > div.campos > select{
 }
 form > div.campos > input{
     width: 130px;
-    height: 15px; 
+    height: 20px; 
     padding: 10px;
     border-radius: 10px;
     background: #D9D9D9;
