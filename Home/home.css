@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Fontes/Roboto/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url(../Fontes/Kanit/Kanit-Light.ttf) format(truetype);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #ffffff;
+    height: 96px;
+    text-align: center;
+    box-shadow: 0;
+}
+header img{
+    width: 120px;
+    height: 96px;
+}
+main{
+    height: calc(100vh - 96px);
+    width: 100vw;
+    background-color: #59433D;
+}
+div#titulo{
+    border: 10px;
+    display: block;
+}
+hr.linhas{
+    border: 1px solid black;
+}
+#titulo > h1{
+    padding-left: 6px;
+    font-family: 'Kanit';
+    font-weight: lighter;
+    color: #D0A791;
+}
+div.horarios_marcados{
+    display: block;
+    height: 150px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #6D534C;
+    box-shadow: 2px 2px 2px #231917;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.servico{
+    text-align: center;
+    display: block;
+    margin-left: 50%;
+    margin-top: 6px;
+    transform: translate(-50%,0%);
+}
+div.servico > h2{
+    width: 170px;
+    height: 25px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'kanit';
+    font-weight: medium;
+    background-color: #7C5F57;
+    
+}
+div#marcar{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid #3D2E2A;
+    background: #98766C;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: 'Kanit';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+}
