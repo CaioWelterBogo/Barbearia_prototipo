@@ -23,7 +23,7 @@ header img{
     height: 96px;
 }
 body{
-    height: 80vh;
+    height: calc(100vh - 96px);
     background-color: #3d2e18;
 }
 body > div#imagem_fundo{
