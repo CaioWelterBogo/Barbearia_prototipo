@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="../Imagens/logo.png" alt="Cortes e Cia logo">
+        <a href="home.html"><img src="../Imagens/logo.png" alt="Cortes e Cia logo"></a>
     </header>
     <main>
         <br>
@@ -22,14 +22,40 @@
                 <h2>Corte</h2>
             </div>
             <table>
-                
+                <tr>
+                    <td>Dia: 23/05</td>
+                    <td>Profissional: Fulaninho</td>
+                </tr>
+                <tr>
+                    <td>Horario: 14:30</td>
+                    <td>Status: Em aberto <div class="status_negativo"></div></td>
+                </tr>
+                <tr>
+                    <td>Valor: R$50,00</td>
+                </tr>
             </table>
         </div>
         <div class="horarios_marcados">
             <!--horarios marcados pego pelo banco de danos-->
+            <div class="servico">
+                <h2>Barba</h2>
+            </div>
+            <table>
+                <tr>
+                    <td>Dia: 12/11</td>
+                    <td>Profissional: Vitor</td>
+                </tr>
+                <tr>
+                    <td>Horario: 10:00</td>
+                    <td>Status: Pago <div class="status_positivo"></div></td>
+                </tr>
+                <tr>
+                    <td>Valor: R$40,00</td>
+                </tr>
+            </table>
         </div>
         <div id="marcar">
-            <a href="../Horario/agendar.html">Marcar Horario</a>
+            <a id="agendar" href="../Horario/agendar.html">Marcar Horario</a>
         </div>
     </main>
 </body>
