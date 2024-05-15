@@ -27,18 +27,18 @@ body{
     background-color: #3d2e18;
 }
 body > div#imagem_fundo{
-    height: 100vh;
+    height: calc(100vh - 96px);
     background: url(../Imagens/fundo.jpg) no-repeat;
     background-size: cover;
 }
 main{
-    height:100vh;
+    height: calc(100vh - 96px);
     background-color: #000000ba;
     position: relative;
     text-align: center;
 }
 form{
-    margin-top: 5vh;
+    margin-top: 10vh;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
@@ -57,7 +57,7 @@ form > div.campos > label{
     font-weight: 400;
     line-height: normal;
     text-align: left;
-    margin-left: 1vw;
+    margin-left: 20px;
 }
 form > div.campos > input{
     margin-bottom: 35px;
