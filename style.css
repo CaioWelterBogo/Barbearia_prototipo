@@ -8,6 +8,7 @@
     font-family: 'Inter';
     src: url(Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
 }
+
 /*gerais*/
 *{
     padding: 0;
@@ -28,14 +29,15 @@ body{
 }
 
 /*especifica desktop*/
-body > div#imagem_fundo{
+@media screen and (min-width: 801px) {
+    body > div#imagem_fundo{
     height: 100%;
-    background: url(Imagens/fundo_desktop1.jpg) no-repeat;
+    background: url(Imagens/fundo_girado_cortado.jpg) no-repeat center center; /*ver depois */
     background-size: cover;
 }
 main{
     height: 100%;
-    background-color: #0000009a;
+    background-color: #000000ba;
     text-align: center;
 }
 #img_user{
@@ -48,6 +50,10 @@ form{
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
+}
+
+/*especifica mobile*/
 @media screen and (max-width: 800px) {
     body > div#imagem_fundo{
         height: 100%;
